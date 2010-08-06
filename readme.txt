@@ -14,6 +14,10 @@ When an user visits a post in your blog the plugin registers the time of the vis
 
 To do so the plugin adds the 'unread' CSS class to the comment. You will only have to customize that 'unread' class to mark new comments.
 
+This plugin uses some code from: 
+Brett Taylor (http://inner.geek.nz/archives/2005/02/11/wordpress-plugin-smart-unread-comments/)
+Utkarsh Kukreti (http://wordpress.org/extend/plugins/feature-comments/)
+
 == Installation ==
 
 For WordPress 3.+:
