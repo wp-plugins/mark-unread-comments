@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Mark Unread Comments
-Version: 0.1
+Version: 0.2
 Plugin URI: http://www.26horas.com/open-source/wordpress/plugins/mark-unread-comments/
 Description: Controls the visits of the user on an cookie based system and marks the new comments appeared after the last visit to the post with the 'unread' css class. 
 Author: Pablo Fernandez
@@ -20,7 +20,7 @@ function muc_set_cookie() {
 	if (is_single()) {
 		$post_id = $wp_query->post->ID;
 		$time = time();
-		$timeout = 3600*24*14; // Timeout of the cookie. Set it to whatever you want
+		$timeout = 6*30*24*60*60; // Timeout of the cookie. Set to 6 months. Set it to whatever you want
 		$cookie = (!$_COOKIE['muc_posts']) ? array() : $_COOKIE['muc_posts'];
 		$muc_posts = unserialize($cookie);
 		$muc_cookie_posts = $muc_posts;

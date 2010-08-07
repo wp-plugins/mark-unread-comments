@@ -4,7 +4,7 @@ Donate link:
 Tags: comments, unread
 Requires at least: 3.0
 Tested up to: 3.0.1
-Stable tag: 0.1
+Stable tag: 0.2
 
 WordPress plugin that allows the marking of the new comments in a post.
 
@@ -41,6 +41,9 @@ Of course. Feel free to modify it in anyway you like.
 I would appreciate if you notify me any improve to the code.
 
 == Changelog ==
+
+= 0.2 =
+* Cookie timeout set to 6 months.
 
 = 0.1 =
 * That's only the beginning!
